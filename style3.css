@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background: #fff;
+}
+.container{
+    width: auto;
+    margin: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 7%;
+    margin-bottom: 10%;
+} 
+.line1{
+    font-weight: bold;
+    letter-spacing: -0.05em;
+    font-size: 15px; 
+}
+.line2{
+    font-weight: bold;
+    letter-spacing: -0.05em; 
+    font-size: 10px;
+    color: rgb(105, 103, 103); 
+}
+.line3{
+    font-weight: bold;
+    letter-spacing: -0.05em; 
+    color: rgb(105, 103, 103); 
+}
+.profile{
+    margin-top: 6%;
+    margin-bottom: 3%;
+    display: flex;
+    flex-direction: row;
+}
+img{
+    /* border-radius: 50%;
+    height: 45px;
+    border: 2px solid rgb(35, 36, 34);
+    padding: 10px;  */
+    width: 70px;
+    height: 70px; 
+} 
+.pname{
+    font-weight: bold;
+    letter-spacing: -0.05em;
+    font-size: 15px; 
+    color: rgb(46, 44, 44); 
+}
+.msg{
+    font-weight: initial;
+    letter-spacing: -0.05em;
+    font-size: 14px; 
+    color: rgb(37, 37, 37); 
+}
+.reply{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.claps{
+    display: flex;
+    flex: 4;
+}
+.response{
+    font-size: 13px; 
+    color: rgb(80, 77, 77); 
+    font-weight: initial;
+}
+.high{
+    color: rgb(50, 148, 228)
+}

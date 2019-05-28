@@ -1,0 +1,92 @@
+<DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>MEDIUM</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+            <link rel="stylesheet" href="style3.css" type="text/css" />
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        </head>
+        <body>
+            <div class="bg-fluid">
+                <div class="container">
+                    <div class="line1">
+                        <p>Responses</p>
+                    </div>   
+                    <div class="line2">
+                        <h1><i style='font-size:24px' class='far'>&#xf075;</i> Write a response....</h1>
+                    </div> 
+                    <div class="content">
+                     <!-- <div class="line3">
+                        <h3>Conversation between <span class="high">David Martinez</span> and <span class="high">Dave Feldman.</span></h3>
+                    </div>    -->
+        
+                    <!-- <div class="profile">
+                        <div class="img">
+                            <img src="david.jpeg" alt="avatar">
+                        </div>
+                        &nbsp;
+                        <div class="pname">
+                            <p><span class="high">David Martinez</span></p>
+                            <p>Mar 29</p>
+                        </div>
+                    </div>   -->
+                    
+                    <!-- <div class="msg">
+                        <h3>VP Product Design at Heap in San Francisco. Former
+                            PM and design manager at Google, Facebook, 
+                            TechCrunch, Emu, Yahoo. Behavioral science enthusiast.
+                            I’m hiring.Indeed! And it’s already improved our speed
+                            of execution as a product development team, too. It’s 
+                            easier and faster to produce consistent UI as we build 
+                            new functionality
+                        </h3>
+                    </div>   -->
+                    
+                    <!-- <div class="reply">
+                        <div class="claps">
+                            <p>&#128079; 1</p>
+                        </div>
+                        <div class="response">
+                            <h3>1 response <i style="font-size:24px" class="fa">&#xf097;</i> </h3>
+                        </div>
+                    </div>   -->
+                    
+                    <!-- <div class="profile">
+                        <div class="img">
+                            <img src="profile2.png" alt="avatar">
+                        </div>
+                        &nbsp;
+                        <div class="pname">
+                            <p><span class="high">Dave Feldman</span></p>
+                            <p>Mar 29</p>
+                        </div>
+                    </div>  -->
+                    
+                    <!-- <div class="msg">
+                        <h3>Thanks!</h3>
+                    </div>  -->
+                    
+                    <!-- <div class="reply">
+                        <div class="claps">
+                            <p>&#128079;</p>
+                        </div>
+                        <div class="response">
+                            <h3> <i style="font-size:24px" class="fa">&#xf097;</i> </h3>
+                        </div>
+                    </div>    -->
+                    </div>
+                </div>
+            </div>
+            <script src="jquery.min.js"></script>
+	        <script src="ejs.min.js"></script>
+            <script src="ejs-render-remote.js"></script>
+            <script>
+                //render the template
+                    $.getJSON("index3.json",function(data){
+                        $('.content').html(ejs.rr('templates/index3.ejs',{jdata:data}));
+                    });
+            </script>
+        </body>
+    </html>
