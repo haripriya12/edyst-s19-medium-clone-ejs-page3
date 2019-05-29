@@ -15,7 +15,8 @@
                         <p>Responses</p>
                     </div>   
                     <div class="line2">
-                        <h1><i style='font-size:24px' class='far'>&#xf075;</i> Write a response....</h1>
+                        <!-- <h1><i style='font-size:24px' class='far'>&#xf075;</i> Write a response....</h1> -->
+                        <input type="text" style=" height:10%; width: 110%;" id="mytext" rows="6" cols="88" placeholder="&#128172; Write a response" />
                     </div> 
                     <div class="content">
                      <!-- <div class="line3">
@@ -84,7 +85,7 @@
             <script src="ejs-render-remote.js"></script>
             <script>
                 //render the template
-                    $.getJSON("https://b72ea106-2fd1-4c8d-88c6-f810b30c3255.mock.pstmn.io/page3",function(data){
+                    $.getJSON("https://6ba0333d-2ff8-4f5c-ba10-aa1a9c07c05c.mock.pstmn.io/response",function(data){
                         $('.content').html(ejs.rr('templates/index3.ejs',{jdata:data}));
                     });
             </script>
