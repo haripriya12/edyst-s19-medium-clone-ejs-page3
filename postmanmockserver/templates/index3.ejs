@@ -4,47 +4,46 @@
 <div class="card">
 <div class="profile">
     <div class="img">
-        <img src="images/david.jpeg" style="border-radius: 50% 50%" alt="avatar">
+        <img src=" <%= jdata['item']['image1'] %>" style="border-radius: 50% 50%" alt="avatar">
     </div>
     &nbsp;
     <div class="pname">
-        <p><span class="high"><%= jdata["item"]["pname"]%></span></p>
-        <p><%= jdata["item"]["pdate"]%></p>
+        <p><span class="high"><%= jdata["item"]["auth1"]%></span></p>
+        <p><%= jdata["item"]["cmnt1_detail"]%></p>
     </div>
 </div> 
 <div class="msg">
-    <h3><%= jdata["item"]["msg"]%></h3>
+    <h3><%= jdata["item"]["cmnt1_text"]%></h3>
 </div>  
 <div class="reply">
     <div class="claps">
-        <p>&#128079; <%= jdata["item"]["claps"]%></p>
+        <p>&#128079; <%= jdata["item"]["cmnt1_clap_count"]%></p>
     </div>
     <div class="response">
-        <h3><%= jdata["item"]["response"]%> response <i style="font-size:24px" class="fa">&#xf097;</i> </h3>
+        <h3><%= jdata["item"]["cmnt1_reply_count"]%> <i style="font-size:24px" class="fa">&#xf097;</i> </h3>
     </div>
 </div>
 </div>
 <div class="card">
 <div class="profile">
     <div class="img">
-        <img src="images/profile2.png" style="border-radius: 50% 50%" alt="avatar">
+        <img src=" <%= jdata['item']['image2'] %>" style="border-radius: 50% 50%" alt="avatar">
     </div>
     &nbsp;
     <div class="pname">
-        <p><span class="high"><%= jdata["item"]["pname2"]%></span></p>
-        <p><%= jdata["item"]["pdate2"]%></p>
+        <p><span class="high"><%= jdata["item"]["auth2"]%></span></p>
+        <p><%= jdata["item"]["cmnt2_detail"]%></p>
     </div>
 </div>
 <div class="msg">
-    <h3><%= jdata["item"]["msg1"]%></h3>
+    <h3><%= jdata["item"]["cmnt2_text"]%></h3>
 </div>  
 <div class="reply">
     <div class="claps">
-        <p>&#128079; <%= jdata["item"]["claps1"]%> </p>
+        <p>&#128079; <%= jdata["item"]["cmnt2_clap_count"]%> </p>
     </div>
     <div class="response">
         <h3> <i style="font-size:24px" class="fa">&#xf097;</i> </h3>
     </div>
 </div> 
 </div> 
-  
